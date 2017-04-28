@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2862D5C81EB0D2F800761A53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862D5C71EB0D2F800761A53 /* main.m */; };
+		2862D5CB1EB0D2F800761A53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862D5CA1EB0D2F800761A53 /* AppDelegate.m */; };
+		2862D5CE1EB0D2F800761A53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862D5CD1EB0D2F800761A53 /* ViewController.m */; };
+		2862D5D11EB0D2F800761A53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2862D5CF1EB0D2F800761A53 /* Main.storyboard */; };
+		2862D5D31EB0D2F800761A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2862D5D21EB0D2F800761A53 /* Assets.xcassets */; };
+		2862D5D61EB0D2F800761A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2862D5D41EB0D2F800761A53 /* LaunchScreen.storyboard */; };
+		2862D5E01EB0D34E00761A53 /* DKBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862D5DF1EB0D34E00761A53 /* DKBlueToothManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2862D5C31EB0D2F800761A53 /* 蓝牙Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "蓝牙Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2862D5C71EB0D2F800761A53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2862D5C91EB0D2F800761A53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2862D5CA1EB0D2F800761A53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2862D5CC1EB0D2F800761A53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2862D5CD1EB0D2F800761A53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2862D5D01EB0D2F800761A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2862D5D21EB0D2F800761A53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2862D5D51EB0D2F800761A53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2862D5D71EB0D2F800761A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2862D5DE1EB0D34E00761A53 /* DKBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKBlueToothManager.h; sourceTree = "<group>"; };
+		2862D5DF1EB0D34E00761A53 /* DKBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKBlueToothManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2862D5C01EB0D2F800761A53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2862D5BA1EB0D2F800761A53 = {
+			isa = PBXGroup;
+			children = (
+				2862D5C51EB0D2F800761A53 /* 蓝牙Tool */,
+				2862D5C41EB0D2F800761A53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2862D5C41EB0D2F800761A53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2862D5C31EB0D2F800761A53 /* 蓝牙Tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2862D5C51EB0D2F800761A53 /* 蓝牙Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2862D5DD1EB0D33300761A53 /* DKBlueToothManager */,
+				2862D5C91EB0D2F800761A53 /* AppDelegate.h */,
+				2862D5CA1EB0D2F800761A53 /* AppDelegate.m */,
+				2862D5CC1EB0D2F800761A53 /* ViewController.h */,
+				2862D5CD1EB0D2F800761A53 /* ViewController.m */,
+				2862D5CF1EB0D2F800761A53 /* Main.storyboard */,
+				2862D5D21EB0D2F800761A53 /* Assets.xcassets */,
+				2862D5D41EB0D2F800761A53 /* LaunchScreen.storyboard */,
+				2862D5D71EB0D2F800761A53 /* Info.plist */,
+				2862D5C61EB0D2F800761A53 /* Supporting Files */,
+			);
+			path = "蓝牙Tool";
+			sourceTree = "<group>";
+		};
+		2862D5C61EB0D2F800761A53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2862D5C71EB0D2F800761A53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2862D5DD1EB0D33300761A53 /* DKBlueToothManager */ = {
+			isa = PBXGroup;
+			children = (
+				2862D5DE1EB0D34E00761A53 /* DKBlueToothManager.h */,
+				2862D5DF1EB0D34E00761A53 /* DKBlueToothManager.m */,
+			);
+			path = DKBlueToothManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2862D5C21EB0D2F800761A53 /* 蓝牙Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2862D5DA1EB0D2F800761A53 /* Build configuration list for PBXNativeTarget "蓝牙Tool" */;
+			buildPhases = (
+				2862D5BF1EB0D2F800761A53 /* Sources */,
+				2862D5C01EB0D2F800761A53 /* Frameworks */,
+				2862D5C11EB0D2F800761A53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "蓝牙Tool";
+			productName = "蓝牙Tool";
+			productReference = 2862D5C31EB0D2F800761A53 /* 蓝牙Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2862D5BB1EB0D2F800761A53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = doublek;
+				TargetAttributes = {
+					2862D5C21EB0D2F800761A53 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9829ZDRV54;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2862D5BE1EB0D2F800761A53 /* Build configuration list for PBXProject "蓝牙Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2862D5BA1EB0D2F800761A53;
+			productRefGroup = 2862D5C41EB0D2F800761A53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2862D5C21EB0D2F800761A53 /* 蓝牙Tool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2862D5C11EB0D2F800761A53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862D5D61EB0D2F800761A53 /* LaunchScreen.storyboard in Resources */,
+				2862D5D31EB0D2F800761A53 /* Assets.xcassets in Resources */,
+				2862D5D11EB0D2F800761A53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2862D5BF1EB0D2F800761A53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862D5CE1EB0D2F800761A53 /* ViewController.m in Sources */,
+				2862D5CB1EB0D2F800761A53 /* AppDelegate.m in Sources */,
+				2862D5C81EB0D2F800761A53 /* main.m in Sources */,
+				2862D5E01EB0D34E00761A53 /* DKBlueToothManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2862D5CF1EB0D2F800761A53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2862D5D01EB0D2F800761A53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2862D5D41EB0D2F800761A53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2862D5D51EB0D2F800761A53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2862D5D81EB0D2F800761A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2862D5D91EB0D2F800761A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2862D5DB1EB0D2F800761A53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9829ZDRV54;
+				INFOPLIST_FILE = "蓝牙Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Doublek.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2862D5DC1EB0D2F800761A53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9829ZDRV54;
+				INFOPLIST_FILE = "蓝牙Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Doublek.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2862D5BE1EB0D2F800761A53 /* Build configuration list for PBXProject "蓝牙Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2862D5D81EB0D2F800761A53 /* Debug */,
+				2862D5D91EB0D2F800761A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2862D5DA1EB0D2F800761A53 /* Build configuration list for PBXNativeTarget "蓝牙Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2862D5DB1EB0D2F800761A53 /* Debug */,
+				2862D5DC1EB0D2F800761A53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2862D5BB1EB0D2F800761A53 /* Project object */;
+}
